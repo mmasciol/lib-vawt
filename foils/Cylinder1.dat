@@ -1,0 +1,12 @@
+NACA64 airfoilwith an aspect ratio of 17.  Original -180 to 180deg Cl, Cd, and Cm versus AOA data taken from Appendix A of DOWEC document 10046_009.pdf (numerical values obtained from Koert Lindenburg of ECN).
+Re           1E6
+aol          0.0     # AOL - Zero Cn angle of attack (deg)   
+cna          0.0     # CNA - Cn slope for zero lift (dimensionless) 
+cns          0.0     # CNS - Cn extrapolated to value at positive stall angle of attack
+cnsl         0.0     # CNSL - Cn at stall value for negative angle of attack
+aod          0.0     # AOD - Angle of attack for minimum CD (deg)
+cd0          0.5     # CDO - Minimum CD value
+AL  -180.00  0.0   180.0
+CL  0.0      0.0   0.0
+CD  0.50     0.50  0.50
+CM  0.0      0.0   0.0

@@ -1,0 +1,47 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.*#
+*.pptx
+*.exe
+*.tar
+*.so
+*.sum
+c_driver
+f_driver
+
+
+# compiling files
+*.o
+*.mod
+
+# python specific
+*.pyc
+*.[oa]
+
+# xcode specific
+build/*
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.perspective
+*.perspectivev3
+*~.nib
+
+# ignore private workspace stuff added by Xcode4
+xcuserdata
+project.xcworkspace
+ 
+# ignore directories
+c_driver/
+libs/
